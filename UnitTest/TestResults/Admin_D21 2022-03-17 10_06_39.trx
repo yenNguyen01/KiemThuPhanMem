@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="fcd45d00-6696-45ed-928b-3518a1f1f822" name="Admin@D21 2022-03-17 10:06:39" runUser="D21\Admin" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="95556ae4-afe6-44a5-9e69-27dc9a38f9b2">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Admin_D21 2022-03-17 10_06_39">
+      <DeploymentItem filename="D:\Visual Studio 2010\Projects\Bai1\Bai1\bin\Debug\Bai1.exe" />
+      <DeploymentItem filename="D:\Visual Studio 2010\Projects\Bai1\Bai2\bin\Debug\Bai2.exe" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2022-03-17T10:06:39.8120001+07:00" queuing="2022-03-17T10:06:39.8320001+07:00" start="2022-03-17T10:06:39.8340001+07:00" finish="2022-03-17T10:06:39.9560001+07:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="1" executed="1" passed="1" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="CalTrue" storage="d:\visual studio 2010\projects\bai1\dequytester\bin\debug\dequytester.dll" id="148a3faf-455d-64ab-1f47-78a817d3016a">
+      <Execution id="7599427b-3b72-4e00-a76d-9d7cc540b0c4" />
+      <TestMethod codeBase="D:/Visual Studio 2010/Projects/Bai1/DeQuyTester/bin/Debug/DeQuyTester.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="DeQuyTester.UnitTest1, DeQuyTester, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CalTrue" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="148a3faf-455d-64ab-1f47-78a817d3016a" executionId="7599427b-3b72-4e00-a76d-9d7cc540b0c4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="7599427b-3b72-4e00-a76d-9d7cc540b0c4" testId="148a3faf-455d-64ab-1f47-78a817d3016a" testName="CalTrue" computerName="D21" duration="00:00:00.0083129" startTime="2022-03-17T10:06:39.8430001+07:00" endTime="2022-03-17T10:06:39.9460001+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7599427b-3b72-4e00-a76d-9d7cc540b0c4">
+    </UnitTestResult>
+  </Results>
+</TestRun>

@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="cd8a27b0-b2a1-4b98-944c-06a3552220f0" name="Admin@D21 2022-03-10 08:30:02" runUser="D21\Admin" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="95556ae4-afe6-44a5-9e69-27dc9a38f9b2">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Admin_D21 2022-03-10 08_30_02">
+      <DeploymentItem filename="D:\Visual Studio 2010\Projects\Bai1\Bai1\bin\Debug\Bai1.exe" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2022-03-10T08:30:02.3810003+07:00" queuing="2022-03-10T08:30:03.2060003+07:00" start="2022-03-10T08:30:03.2310003+07:00" finish="2022-03-10T08:30:03.5200003+07:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="1" executed="1" passed="1" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="TestPower" storage="d:\visual studio 2010\projects\bai1\dequytester\bin\debug\dequytester.dll" id="e40f3d38-653f-20ab-f33a-b3fe1a171a50">
+      <Execution id="a0672b83-8d9d-4cda-a64d-c001d85bb8d2" />
+      <TestMethod codeBase="D:/Visual Studio 2010/Projects/Bai1/DeQuyTester/bin/Debug/DeQuyTester.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="DeQuyTester.UnitTest1, DeQuyTester, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestPower" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="e40f3d38-653f-20ab-f33a-b3fe1a171a50" executionId="a0672b83-8d9d-4cda-a64d-c001d85bb8d2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="a0672b83-8d9d-4cda-a64d-c001d85bb8d2" testId="e40f3d38-653f-20ab-f33a-b3fe1a171a50" testName="TestPower" computerName="D21" duration="00:00:00.0242789" startTime="2022-03-10T08:30:03.2370003+07:00" endTime="2022-03-10T08:30:03.4950003+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a0672b83-8d9d-4cda-a64d-c001d85bb8d2">
+    </UnitTestResult>
+  </Results>
+</TestRun>

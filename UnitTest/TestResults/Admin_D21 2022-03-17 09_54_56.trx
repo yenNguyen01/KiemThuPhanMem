@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="bb6eb7c5-a7ae-43cb-aa3b-95f67dcdd728" name="Admin@D21 2022-03-17 09:54:56" runUser="D21\Admin" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="95556ae4-afe6-44a5-9e69-27dc9a38f9b2">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Admin_D21 2022-03-17 09_54_56">
+      <DeploymentItem filename="D:\Visual Studio 2010\Projects\Bai1\Bai1\bin\Debug\Bai1.exe" />
+      <DeploymentItem filename="D:\Visual Studio 2010\Projects\Bai1\Bai2\bin\Debug\Bai2.exe" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2022-03-17T09:54:56.8840001+07:00" queuing="2022-03-17T09:54:56.9000001+07:00" start="2022-03-17T09:54:56.9030001+07:00" finish="2022-03-17T09:54:57.1250001+07:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="8" executed="8" passed="5" error="0" failed="3" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="TestPower1" storage="d:\visual studio 2010\projects\bai1\dequytester\bin\debug\dequytester.dll" id="f2d2f585-6458-2aa5-6a09-a83373293bcd">
+      <Execution id="bb499306-e422-4764-bdf3-01ab199a7488" />
+      <TestMethod codeBase="D:/Visual Studio 2010/Projects/Bai1/DeQuyTester/bin/Debug/DeQuyTester.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="DeQuyTester.UnitTest1, DeQuyTester, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestPower1" />
+    </UnitTest>
+    <UnitTest name="TestWithDataSource" storage="d:\visual studio 2010\projects\bai1\dequytester\bin\debug\dequytester.dll" id="224366f9-123c-707b-78ce-5604250e5262">
+      <Execution id="5e09ff06-3fb7-4ffc-bf0b-208e5b7acc18" />
+      <TestMethod codeBase="D:/Visual Studio 2010/Projects/Bai1/DeQuyTester/bin/Debug/DeQuyTester.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="DeQuyTester.UnitTest1, DeQuyTester, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestWithDataSource" />
+      <DataSource connectionString="D:\Visual Studio 2010\Projects\Bai1\Bai1\TestData.csv" providerInvariantName="Microsoft.VisualStudio.TestTools.DataSource.CSV" tableName="TestData#csv" />
+    </UnitTest>
+    <UnitTest name="TestPower2" storage="d:\visual studio 2010\projects\bai1\dequytester\bin\debug\dequytester.dll" id="c2c7451b-0387-c5a9-473c-dc70f42e3848">
+      <Execution id="078c5e02-e29d-406e-b85e-243c195d0e64" />
+      <TestMethod codeBase="D:/Visual Studio 2010/Projects/Bai1/DeQuyTester/bin/Debug/DeQuyTester.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="DeQuyTester.UnitTest1, DeQuyTester, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestPower2" />
+    </UnitTest>
+    <UnitTest name="PolynomialTrue" storage="d:\visual studio 2010\projects\bai1\dequytester\bin\debug\dequytester.dll" id="2902ec57-8860-a5db-3d7c-462d668a69eb">
+      <Execution id="1f75d7c5-c6fe-4173-97e0-2e4a39eeaaea" />
+      <TestMethod codeBase="D:/Visual Studio 2010/Projects/Bai1/DeQuyTester/bin/Debug/DeQuyTester.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="DeQuyTester.UnitTest1, DeQuyTester, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="PolynomialTrue" />
+    </UnitTest>
+    <UnitTest name="TestPower3" storage="d:\visual studio 2010\projects\bai1\dequytester\bin\debug\dequytester.dll" id="edbf2358-7e33-f1b0-3bb2-f51fe8cf4743">
+      <Execution id="cb416379-7052-4ca2-b507-2c6849120ad0" />
+      <TestMethod codeBase="D:/Visual Studio 2010/Projects/Bai1/DeQuyTester/bin/Debug/DeQuyTester.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="DeQuyTester.UnitTest1, DeQuyTester, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestPower3" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="224366f9-123c-707b-78ce-5604250e5262" executionId="5e09ff06-3fb7-4ffc-bf0b-208e5b7acc18" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2902ec57-8860-a5db-3d7c-462d668a69eb" executionId="1f75d7c5-c6fe-4173-97e0-2e4a39eeaaea" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c2c7451b-0387-c5a9-473c-dc70f42e3848" executionId="078c5e02-e29d-406e-b85e-243c195d0e64" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="edbf2358-7e33-f1b0-3bb2-f51fe8cf4743" executionId="cb416379-7052-4ca2-b507-2c6849120ad0" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f2d2f585-6458-2aa5-6a09-a83373293bcd" executionId="bb499306-e422-4764-bdf3-01ab199a7488" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="5e09ff06-3fb7-4ffc-bf0b-208e5b7acc18" testId="224366f9-123c-707b-78ce-5604250e5262" testName="TestWithDataSource" computerName="D21" duration="00:00:00.0960820" startTime="2022-03-17T09:54:56.9070001+07:00" endTime="2022-03-17T09:54:57.0960001+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5e09ff06-3fb7-4ffc-bf0b-208e5b7acc18" resultType="DataDrivenTest">
+      <Counters error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="2" completed="0" inProgress="0" pending="0" />
+      <InnerResults>
+        <UnitTestResult executionId="e315f47a-dc1b-4e94-8082-b67296920a3b" parentExecutionId="5e09ff06-3fb7-4ffc-bf0b-208e5b7acc18" testId="224366f9-123c-707b-78ce-5604250e5262" testName="TestWithDataSource" computerName="D21" duration="00:00:00.0079064" startTime="2022-03-17T09:54:57.0720001+07:00" endTime="2022-03-17T09:54:57.0830001+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5e09ff06-3fb7-4ffc-bf0b-208e5b7acc18" dataRowInfo="0" resultType="DataDrivenDataRow" />
+        <UnitTestResult executionId="aceccd67-520b-4ef1-b5a2-aa977ad9d98b" parentExecutionId="5e09ff06-3fb7-4ffc-bf0b-208e5b7acc18" testId="224366f9-123c-707b-78ce-5604250e5262" testName="TestWithDataSource" computerName="D21" duration="00:00:00.0097286" startTime="2022-03-17T09:54:57.0830001+07:00" endTime="2022-03-17T09:54:57.0920001+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5e09ff06-3fb7-4ffc-bf0b-208e5b7acc18" dataRowInfo="1" resultType="DataDrivenDataRow">
+          <Output>
+            <ErrorInfo>
+              <Message>Assert.AreEqual failed. Expected:&lt;4&gt;. Actual:&lt;2&gt;. </Message>
+              <StackTrace>   at DeQuyTester.UnitTest1.TestWithDataSource() in D:\Visual Studio 2010\Projects\Bai1\DeQuyTester\UnitTest1.cs:line 52
+</StackTrace>
+            </ErrorInfo>
+          </Output>
+        </UnitTestResult>
+        <UnitTestResult executionId="c085e89f-54ff-4d54-aeb4-b5ef8045fc4b" parentExecutionId="5e09ff06-3fb7-4ffc-bf0b-208e5b7acc18" testId="224366f9-123c-707b-78ce-5604250e5262" testName="TestWithDataSource" computerName="D21" duration="00:00:00.0000109" startTime="2022-03-17T09:54:57.0920001+07:00" endTime="2022-03-17T09:54:57.0920001+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5e09ff06-3fb7-4ffc-bf0b-208e5b7acc18" dataRowInfo="2" resultType="DataDrivenDataRow" />
+      </InnerResults>
+    </UnitTestResult>
+    <UnitTestResult executionId="1f75d7c5-c6fe-4173-97e0-2e4a39eeaaea" testId="2902ec57-8860-a5db-3d7c-462d668a69eb" testName="PolynomialTrue" computerName="D21" duration="00:00:00.0019587" startTime="2022-03-17T09:54:57.0990001+07:00" endTime="2022-03-17T09:54:57.1020001+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1f75d7c5-c6fe-4173-97e0-2e4a39eeaaea">
+    </UnitTestResult>
+    <UnitTestResult executionId="078c5e02-e29d-406e-b85e-243c195d0e64" testId="c2c7451b-0387-c5a9-473c-dc70f42e3848" testName="TestPower2" computerName="D21" duration="00:00:00.0008853" startTime="2022-03-17T09:54:57.1060001+07:00" endTime="2022-03-17T09:54:57.1080001+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="078c5e02-e29d-406e-b85e-243c195d0e64">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual failed. Expected:&lt;4&gt;. Actual:&lt;2&gt;. </Message>
+          <StackTrace>   at DeQuyTester.UnitTest1.TestPower2() in D:\Visual Studio 2010\Projects\Bai1\DeQuyTester\UnitTest1.cs:line 31
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="cb416379-7052-4ca2-b507-2c6849120ad0" testId="edbf2358-7e33-f1b0-3bb2-f51fe8cf4743" testName="TestPower3" computerName="D21" duration="00:00:00.0000914" startTime="2022-03-17T09:54:57.1110001+07:00" endTime="2022-03-17T09:54:57.1120001+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="cb416379-7052-4ca2-b507-2c6849120ad0">
+    </UnitTestResult>
+    <UnitTestResult executionId="bb499306-e422-4764-bdf3-01ab199a7488" testId="f2d2f585-6458-2aa5-6a09-a83373293bcd" testName="TestPower1" computerName="D21" duration="00:00:00.0000815" startTime="2022-03-17T09:54:57.1150001+07:00" endTime="2022-03-17T09:54:57.1170001+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="bb499306-e422-4764-bdf3-01ab199a7488">
+    </UnitTestResult>
+  </Results>
+</TestRun>

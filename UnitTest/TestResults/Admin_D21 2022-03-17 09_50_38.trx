@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="aa975480-31ab-4c9c-a75e-f422d5fdf92e" name="Admin@D21 2022-03-17 09:50:38" runUser="D21\Admin" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="95556ae4-afe6-44a5-9e69-27dc9a38f9b2">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Admin_D21 2022-03-17 09_50_38">
+      <DeploymentItem filename="D:\Visual Studio 2010\Projects\Bai1\Bai1\bin\Debug\Bai1.exe" />
+      <DeploymentItem filename="D:\Visual Studio 2010\Projects\Bai1\Bai2\bin\Debug\Bai2.exe" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2022-03-17T09:50:38.7190001+07:00" queuing="2022-03-17T09:50:40.0480001+07:00" start="2022-03-17T09:50:40.0800001+07:00" finish="2022-03-17T09:50:41.5380001+07:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="7" executed="7" passed="4" error="0" failed="3" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="TestPower1" storage="d:\visual studio 2010\projects\bai1\dequytester\bin\debug\dequytester.dll" id="f2d2f585-6458-2aa5-6a09-a83373293bcd">
+      <Execution id="1699ff50-9adf-4dfb-a6fa-9919dd2e762a" />
+      <TestMethod codeBase="D:/Visual Studio 2010/Projects/Bai1/DeQuyTester/bin/Debug/DeQuyTester.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="DeQuyTester.UnitTest1, DeQuyTester, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestPower1" />
+    </UnitTest>
+    <UnitTest name="TestWithDataSource" storage="d:\visual studio 2010\projects\bai1\dequytester\bin\debug\dequytester.dll" id="224366f9-123c-707b-78ce-5604250e5262">
+      <Execution id="1de6e15e-a575-477d-b184-e6990c0f55c4" />
+      <TestMethod codeBase="D:/Visual Studio 2010/Projects/Bai1/DeQuyTester/bin/Debug/DeQuyTester.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="DeQuyTester.UnitTest1, DeQuyTester, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestWithDataSource" />
+      <DataSource connectionString="D:\Visual Studio 2010\Projects\Bai1\Bai1\TestData.csv" providerInvariantName="Microsoft.VisualStudio.TestTools.DataSource.CSV" tableName="TestData#csv" />
+    </UnitTest>
+    <UnitTest name="TestPower2" storage="d:\visual studio 2010\projects\bai1\dequytester\bin\debug\dequytester.dll" id="c2c7451b-0387-c5a9-473c-dc70f42e3848">
+      <Execution id="6fcd7fb5-8736-464c-84f7-93279b369e53" />
+      <TestMethod codeBase="D:/Visual Studio 2010/Projects/Bai1/DeQuyTester/bin/Debug/DeQuyTester.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="DeQuyTester.UnitTest1, DeQuyTester, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestPower2" />
+    </UnitTest>
+    <UnitTest name="TestPower3" storage="d:\visual studio 2010\projects\bai1\dequytester\bin\debug\dequytester.dll" id="edbf2358-7e33-f1b0-3bb2-f51fe8cf4743">
+      <Execution id="2520035c-6409-449a-8c14-bff4df560ee8" />
+      <TestMethod codeBase="D:/Visual Studio 2010/Projects/Bai1/DeQuyTester/bin/Debug/DeQuyTester.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="DeQuyTester.UnitTest1, DeQuyTester, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestPower3" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="224366f9-123c-707b-78ce-5604250e5262" executionId="1de6e15e-a575-477d-b184-e6990c0f55c4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c2c7451b-0387-c5a9-473c-dc70f42e3848" executionId="6fcd7fb5-8736-464c-84f7-93279b369e53" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="edbf2358-7e33-f1b0-3bb2-f51fe8cf4743" executionId="2520035c-6409-449a-8c14-bff4df560ee8" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f2d2f585-6458-2aa5-6a09-a83373293bcd" executionId="1699ff50-9adf-4dfb-a6fa-9919dd2e762a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="1de6e15e-a575-477d-b184-e6990c0f55c4" testId="224366f9-123c-707b-78ce-5604250e5262" testName="TestWithDataSource" computerName="D21" duration="00:00:01.0383971" startTime="2022-03-17T09:50:40.1230001+07:00" endTime="2022-03-17T09:50:41.4600001+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1de6e15e-a575-477d-b184-e6990c0f55c4" resultType="DataDrivenTest">
+      <Counters error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="2" completed="0" inProgress="0" pending="0" />
+      <InnerResults>
+        <UnitTestResult executionId="db920c2b-2ac4-47ce-91b2-87e5a9775c53" parentExecutionId="1de6e15e-a575-477d-b184-e6990c0f55c4" testId="224366f9-123c-707b-78ce-5604250e5262" testName="TestWithDataSource" computerName="D21" duration="00:00:00.0993115" startTime="2022-03-17T09:50:41.1820001+07:00" endTime="2022-03-17T09:50:41.2890001+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1de6e15e-a575-477d-b184-e6990c0f55c4" dataRowInfo="0" resultType="DataDrivenDataRow" />
+        <UnitTestResult executionId="b4fa4df5-2916-4e66-a804-aeccbe9b0b25" parentExecutionId="1de6e15e-a575-477d-b184-e6990c0f55c4" testId="224366f9-123c-707b-78ce-5604250e5262" testName="TestWithDataSource" computerName="D21" duration="00:00:00.1661383" startTime="2022-03-17T09:50:41.2890001+07:00" endTime="2022-03-17T09:50:41.4550001+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1de6e15e-a575-477d-b184-e6990c0f55c4" dataRowInfo="1" resultType="DataDrivenDataRow">
+          <Output>
+            <ErrorInfo>
+              <Message>Assert.AreEqual failed. Expected:&lt;4&gt;. Actual:&lt;2&gt;. </Message>
+              <StackTrace>   at DeQuyTester.UnitTest1.TestWithDataSource() in D:\Visual Studio 2010\Projects\Bai1\DeQuyTester\UnitTest1.cs:line 52
+</StackTrace>
+            </ErrorInfo>
+          </Output>
+        </UnitTestResult>
+        <UnitTestResult executionId="22bcece0-3128-4f69-9d1f-20a0636642d7" parentExecutionId="1de6e15e-a575-477d-b184-e6990c0f55c4" testId="224366f9-123c-707b-78ce-5604250e5262" testName="TestWithDataSource" computerName="D21" duration="00:00:00.0000174" startTime="2022-03-17T09:50:41.4550001+07:00" endTime="2022-03-17T09:50:41.4550001+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1de6e15e-a575-477d-b184-e6990c0f55c4" dataRowInfo="2" resultType="DataDrivenDataRow" />
+      </InnerResults>
+    </UnitTestResult>
+    <UnitTestResult executionId="6fcd7fb5-8736-464c-84f7-93279b369e53" testId="c2c7451b-0387-c5a9-473c-dc70f42e3848" testName="TestPower2" computerName="D21" duration="00:00:00.0010471" startTime="2022-03-17T09:50:41.4630001+07:00" endTime="2022-03-17T09:50:41.4660001+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6fcd7fb5-8736-464c-84f7-93279b369e53">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual failed. Expected:&lt;4&gt;. Actual:&lt;2&gt;. </Message>
+          <StackTrace>   at DeQuyTester.UnitTest1.TestPower2() in D:\Visual Studio 2010\Projects\Bai1\DeQuyTester\UnitTest1.cs:line 31
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="2520035c-6409-449a-8c14-bff4df560ee8" testId="edbf2358-7e33-f1b0-3bb2-f51fe8cf4743" testName="TestPower3" computerName="D21" duration="00:00:00.0000877" startTime="2022-03-17T09:50:41.4690001+07:00" endTime="2022-03-17T09:50:41.4700001+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2520035c-6409-449a-8c14-bff4df560ee8">
+    </UnitTestResult>
+    <UnitTestResult executionId="1699ff50-9adf-4dfb-a6fa-9919dd2e762a" testId="f2d2f585-6458-2aa5-6a09-a83373293bcd" testName="TestPower1" computerName="D21" duration="00:00:00.0000761" startTime="2022-03-17T09:50:41.4730001+07:00" endTime="2022-03-17T09:50:41.4740001+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1699ff50-9adf-4dfb-a6fa-9919dd2e762a">
+    </UnitTestResult>
+  </Results>
+</TestRun>

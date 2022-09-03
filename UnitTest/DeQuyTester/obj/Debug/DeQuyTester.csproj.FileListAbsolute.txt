@@ -1,0 +1,13 @@
+D:\Visual Studio 2010\Projects\Bai1\DeQuyTester\bin\Debug\DeQuyTester.dll
+D:\Visual Studio 2010\Projects\Bai1\DeQuyTester\bin\Debug\DeQuyTester.pdb
+D:\Visual Studio 2010\Projects\Bai1\DeQuyTester\bin\Debug\Bai1.exe
+D:\Visual Studio 2010\Projects\Bai1\DeQuyTester\bin\Debug\Bai1.pdb
+D:\Visual Studio 2010\Projects\Bai1\DeQuyTester\obj\Debug\DeQuyTester.csprojResolveAssemblyReference.cache
+D:\Visual Studio 2010\Projects\Bai1\DeQuyTester\obj\Debug\DeQuyTester.dll
+D:\Visual Studio 2010\Projects\Bai1\DeQuyTester\obj\Debug\DeQuyTester.pdb
+D:\Visual Studio 2010\Projects\Bai1\DeQuyTester\bin\Debug\Bai2.exe
+D:\Visual Studio 2010\Projects\Bai1\DeQuyTester\bin\Debug\Bai2.pdb
+D:\HK2-212\KiemThuPhanMem\Bai1\DeQuyTester\obj\Debug\DeQuyTester.csproj.AssemblyReference.cache
+D:\HK2-212\KiemThuPhanMem\Bai1\DeQuyTester\obj\Debug\DeQuyTester.csproj.CoreCompileInputs.cache
+D:\HK2-212\KiemThuPhanMem\Bai1\DeQuyTester\obj\Debug\DeQuyTester.dll
+D:\HK2-212\KiemThuPhanMem\Bai1\DeQuyTester\obj\Debug\DeQuyTester.pdb

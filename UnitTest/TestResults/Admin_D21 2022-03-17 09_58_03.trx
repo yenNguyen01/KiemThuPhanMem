@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="a75c54f6-4328-4c96-ae6c-83cd9f5dea07" name="Admin@D21 2022-03-17 09:58:03" runUser="D21\Admin" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="95556ae4-afe6-44a5-9e69-27dc9a38f9b2">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Admin_D21 2022-03-17 09_58_03">
+      <DeploymentItem filename="D:\Visual Studio 2010\Projects\Bai1\Bai1\bin\Debug\Bai1.exe" />
+      <DeploymentItem filename="D:\Visual Studio 2010\Projects\Bai1\Bai2\bin\Debug\Bai2.exe" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2022-03-17T09:58:03.4350001+07:00" queuing="2022-03-17T09:58:03.4520001+07:00" start="2022-03-17T09:58:03.4550001+07:00" finish="2022-03-17T09:58:03.5710001+07:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="1" executed="1" passed="1" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="PolynomialFalse" storage="d:\visual studio 2010\projects\bai1\dequytester\bin\debug\dequytester.dll" id="4af89b3e-e9f7-92a8-4efc-33756570c913">
+      <Execution id="08af56a7-5e3f-4de9-8118-1615f024fde1" />
+      <TestMethod codeBase="D:/Visual Studio 2010/Projects/Bai1/DeQuyTester/bin/Debug/DeQuyTester.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="DeQuyTester.UnitTest1, DeQuyTester, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="PolynomialFalse" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="4af89b3e-e9f7-92a8-4efc-33756570c913" executionId="08af56a7-5e3f-4de9-8118-1615f024fde1" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="08af56a7-5e3f-4de9-8118-1615f024fde1" testId="4af89b3e-e9f7-92a8-4efc-33756570c913" testName="PolynomialFalse" computerName="D21" duration="00:00:00.0077203" startTime="2022-03-17T09:58:03.4590001+07:00" endTime="2022-03-17T09:58:03.5600001+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="08af56a7-5e3f-4de9-8118-1615f024fde1">
+    </UnitTestResult>
+  </Results>
+</TestRun>
